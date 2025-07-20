@@ -371,7 +371,7 @@ ip route 0.0.0.0 0.0.0.0 null 0
 ip route 10.0.0.0 255.0.0.0 207.7.7.1
 end
 @@ISP3:
-CONFIG T
+conf t
 router bgp 3
 bgp log-neighbor-changes
 neighbor 32.3.2.2 remote-as 2
