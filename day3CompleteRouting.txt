@@ -309,8 +309,12 @@ interface e1/2
     do sh ip ospf int e1/2
 
 Task3: Eigrp and Ospf Redistribution:
+
+
+
+
 R4: sikat: Eigrp and OSPF world:
-config T
+config t
 router eigrp 100
 redistribute ospf 1 metric 10000 100 255 1 1500
  exit
